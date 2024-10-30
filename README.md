@@ -28,7 +28,7 @@ conda activate myenv
 Install scikit-learn, torch, and torchvision:
 
 ```sh
-pip install scikit-learn torch==1.4.0 torchvision==0.5.0
+pip install scikit-learn torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### Step 4: Verify Installation
