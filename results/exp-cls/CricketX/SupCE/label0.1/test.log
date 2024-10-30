@@ -1,7 +1,7 @@
-2024-10-30 20:48:50.024211
+2024-10-30 22:43:02.460816
 Dataset	Acc_mean	Acc_std	Epoch_max
-2024-10-30 22:27:27.057954
+2024-10-30 22:44:34.999247
 Dataset	Acc_mean	Acc_std	Epoch_max
-2024-10-30 23:28:56.566588
+2024-10-30 22:48:55.532497
 Dataset	Acc_mean	Acc_std	Epoch_max
-CricketX	65.36	0.0	957
+CricketX	37.16	0.0	992
