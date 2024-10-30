@@ -817,7 +817,7 @@ class pseudo(torch.nn.Module):
                 with torch.no_grad():
                     iter_unlab_pslab = outputs.max(1)[1]
                     iter_unlab_pslab.detach_()
-                uloss = c_criterion(outputs, iter_unlab
+                uloss = c_criterion(outputs, iter_unlab)
                 prediction = outputs.argmax(-1)
                 correct = prediction.eq(label.view_as(prediction)).sum()
                 accuracy = (100.0 * correct / len(label))
