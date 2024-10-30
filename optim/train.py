@@ -494,4 +494,3 @@ def supervised_train2(x_train, y_train, x_val, y_val, x_test, y_test, nb_class, 
 
 
 
-
