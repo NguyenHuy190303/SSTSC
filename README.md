@@ -25,10 +25,10 @@ conda activate myenv
 
 ### Step 3: Install Dependencies
 
-Install scikit-learn, torch, and torchvision:
+Install scikit-learn, torch, and torchvision, tqdm:
 
 ```sh
-pip install scikit-learn torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install scikit-learn torch==1.4.0+cu92 torchvision==0.5.0+cu92 tqdm -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### Step 4: Verify Installation
